@@ -4,3 +4,4 @@ __pycache__/
 .env
 data/atai_dataset/
 .ipynb_checkpoints/
+.virtual_documents/
