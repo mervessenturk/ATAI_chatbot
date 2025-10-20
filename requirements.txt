@@ -1,0 +1,26 @@
+rdflib>=7.0.0
+
+# --- Core dependencies ---
+jupyter
+ipykernel
+
+# --- RDF and SPARQL ---
+rdflib>=7.0.0
+
+# --- Numerical & scientific ---
+numpy>=1.24.0
+
+# --- Embedding models / NLP ---
+torch>=2.0.0
+sentence-transformers>=2.2.2
+
+# --- Web communication / API ---
+requests>=2.31.0
+speakeasy  # used for chat interaction framework
+
+# --- Optional utilities ---
+tqdm>=4.65.0
+pandas>=2.0.0
+
+
+-e ./Speakeasy-Python-Client-Library
